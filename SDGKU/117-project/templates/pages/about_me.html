@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block title %}About me{% endblock title %}
+{% load static %}
+
+{% block content %}
+
+<section class="about-section">
+
+        <div class="img-container center">
+            <img id="about-img" src="{% static './img/logo.png' %}">
+        </div>
+
+        <div class="description-container center">
+
+            <div class="center" style="flex-direction: column;">
+                <h1>My role as dev</h1>
+                <h2>Brandon Patrick</h2>
+            </div>
+
+            <p>
+                Hello, I'm Brandon, a passionate front-end developer with a love for crafting captivating digital experiences. With a keen eye for design and a knack for turning ideas into pixel-perfect reality, I'm on a mission to make the web a more beautiful and user-friendly place, one line of code at a time. I specialize in building responsive and interactive websites that not only look stunning but also provide seamless user experiences. From designing elegant user interfaces to translating them into code, I'm all about making the web a better place for everyone.
+            </p>
+
+            <div class="skills-list center">
+                <h2>Skills</h2>
+
+                <div class="skills center">
+                    <label>HTML </label>
+                    <label>CSS </label>
+                    <label>JAVASCRIPT </label>
+                    <label>UI/UX </label>
+                    <label>REACT</label>
+                    <label>DJANGO</label>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+{% endblock content %}

@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}Experience{% endblock title %}
+{% load static %}
+
+{% block content %}
+<section class="experience-section center">
+    <h2>Experience</h2>
+
+    <div class="experience-list">
+        {% for experience in experience %}
+        <div class="experience-card">
+            <a href="{{experience.repository}}" target="_blank">
+                <p>{{experience.entity}}</p>
+                <p>{{experience.title}}</p>
+                <p>{{experience.description}}</p>
+                <p>{{experience.period}}</p>
+
+                <div class="technology center">
+                    {%for tech in project.technologies.all %}
+                    <label>{{tech.name}}</label>
+                    {% endfor %}
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+        
+    </div>
+    </section>
+
+
+{% endblock content %}
