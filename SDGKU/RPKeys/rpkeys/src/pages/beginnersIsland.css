@@ -1,0 +1,116 @@
+.game-screen {
+    background-image: url("../../img/City Block.png");
+    text-align: center;
+    background-size: cover;
+    width: 1500px;
+    height: 900px;
+    position: relative;
+}
+
+.checkpoint {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #CC8EFC;
+    position: absolute;
+    cursor: pointer;
+    opacity: 90%;
+}
+
+.checkpoint:hover {
+    background-color: #842bc9;
+}
+.chk-start:hover {
+    background-color: #0e7a5f;
+}
+
+.chk-start{
+    top: 855px;
+    left: 710px;
+    background-color: #2BBB98;
+}
+
+.chk-1{
+    top: 570px;
+    left: 690px;
+}
+
+.chk-2{
+    top:560px;
+    left: 980px;
+}
+
+.chk-3{
+    top:380px;
+    left: 992px;
+}
+
+.chk-4{
+    top:520px;
+    left: 520px;
+}
+
+.chk-5{
+    top:280px;
+    left: 1023px;
+}
+
+.chk-6{
+    top:210px;
+    left: 687px;
+}
+
+.chk-7{
+    top:410px;
+    left: 477px;
+}
+
+.chk-8{
+    top:230px;
+    left: 500px;
+}
+
+.chk-9{
+    top:223px;
+    left: 1415px;
+}
+
+.chk-10{
+    top:400px;
+    left: 1380px;
+}
+
+.chk-11{
+    top:660px;
+    left: 1320px;
+}
+
+/* Level Selector */
+.level-selector {
+    background-color: var(--surface-color);
+    width: 338px;
+    height: 109px;
+    border-radius: 25px;
+    margin-top: 52px;
+    margin-bottom: 52px;
+    text-align: center;
+}
+
+.levels{
+    color: #EFEFEF;
+}
+.levels h2{
+    font-family: 'Changa';
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--neutral-color);
+}
+.levels h3{
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.modal {
+    display: block !important;
+}

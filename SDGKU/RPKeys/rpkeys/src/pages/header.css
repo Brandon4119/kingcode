@@ -1,0 +1,20 @@
+.header {
+    background-color: var(--primary-color);
+    min-height: 70px;
+    font-family: var(--changa);
+    font-size: 32px;
+    font-weight: 500;
+    color: #FCF5E5;
+    display: flex;
+}
+
+.logo {
+    background-image: url(../../img/Piano_logo.png);
+}
+
+.nav-bar {
+    font-family: var(--changa);
+}
+.nav-bar {
+    font-family: var(--changa);
+}
