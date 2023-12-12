@@ -1,20 +1,72 @@
-.header {
+header {
     background-color: var(--primary-color);
     min-height: 70px;
     font-family: var(--changa);
     font-size: 32px;
     font-weight: 500;
     color: #FCF5E5;
-    display: flex;
+    top: 0px;
 }
 
 .logo {
-    background-image: url(../../img/Piano_logo.png);
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
 }
 
-.nav-bar {
-    font-family: var(--changa);
+.logo a{
+    text-decoration: none;
+    display: flex;
+    color: #FCF5E5;
 }
-.nav-bar {
-    font-family: var(--changa);
+
+.logo img {
+    width: 71px;
+    height: 53px;
+}
+
+.logo-text {
+    display: flex;
+    font-weight: 800;
+}
+
+nav {
+    width: 80%;
+    height: 100%;
+}
+
+.nav-link {
+    font-family: var(--changa-font);
+    height: 100%;
+    flex: auto;
+    display: inline-flex;
+}
+
+.nav-link a {
+    color: var(--neutral-color);
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 2%;
+    text-transform: 1% 2%;
+}
+
+.nav-link a:hover {
+    border-bottom: solid 2px var(--primary-color);
+}
+
+.nav-loging {
+    font-family: var(--changa-font);
+    height: 100%;
+    flex: auto;
+    
+}
+
+.nav-loging a {
+    color: var(--neutral-color);
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 2%;
+    text-transform: 1% 2%;
 }

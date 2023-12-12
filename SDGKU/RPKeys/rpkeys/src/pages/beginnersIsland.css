@@ -1,5 +1,5 @@
 .game-screen {
-    background-image: url("../../img/City Block.png");
+    background-image: url("../../public/img/City Block.png");
     text-align: center;
     background-size: cover;
     width: 1500px;
@@ -20,6 +20,7 @@
 .checkpoint:hover {
     background-color: #842bc9;
 }
+
 .chk-start:hover {
     background-color: #0e7a5f;
 }
@@ -94,6 +95,7 @@
     margin-top: 52px;
     margin-bottom: 52px;
     text-align: center;
+    display: inline-flex;
 }
 
 .levels{
@@ -105,6 +107,7 @@
     font-weight: 500;
     color: var(--neutral-color);
 }
+
 .levels h3{
     font-family: 'Exo 2';
     font-size: 20px;
@@ -113,4 +116,44 @@
 
 .modal {
     display: block !important;
+}
+
+.modal-header {
+    display: flex;
+}
+
+.modal-header button{
+    width: auto;
+}
+
+.modal .modal-dialog .modal-content {
+    background-color: #0D68B5;
+    border-radius: 40px;
+    width: 400px;
+}
+
+.modal-content .modal-header button {
+    display: none;
+}
+
+.modal-header img {
+    width: 71px;
+    height: 53px;
+}
+
+.modal-header h5 {
+    font-family: var(--changa-font);
+    font-size: 28px;
+    flex: 1;
+    color: var(--neutral-color);
+}
+
+.modal-body p {
+    font-family: var(--exo2-font);
+    color: var(--neutral-color);
+    font-size: 18px;
+}
+
+.modal .modal-footer .btn-primary {
+    background-color: var(--secondary-color);
 }
