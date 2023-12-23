@@ -1,0 +1,66 @@
+p {
+    margin: 0;
+}
+
+
+.hero img {
+    width: 1500px;
+}
+
+.hero-text {
+    font-size: 82px;
+    color: var(--neutral-color);
+    top: 150px;
+    left: 600px;
+    position: absolute;
+    font-weight: 800;
+}
+
+.abs{
+    position: absolute;
+    top: 280px;
+    left: 670px;
+    font-size: 24px;
+}
+
+.goal-section {
+    background-color: var(--neutral-color);
+}
+
+.goal-section h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.goal-section p {
+    text-align: left;
+    color: black;
+    padding: 0 250px;
+}
+
+.levels-section {
+    background-color: var(--neutral-color);
+}
+
+.levels-section h2 {
+    padding-top: 40px;
+}
+
+.levels-card {
+    border-radius: 10px;
+    background: #CC8EFC;
+    margin: 60px 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.levels-card p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 30px;
+    text-align: left;
+}
+
+.card-space{
+    margin: 0 20px;
+}

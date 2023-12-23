@@ -5,6 +5,8 @@
     width: 1500px;
     height: 900px;
     position: relative;
+    margin-bottom: 200px;
+    background-color: var(--neutral-color)
 }
 
 .checkpoint {
@@ -84,6 +86,10 @@
 .chk-11{
     top:660px;
     left: 1320px;
+}
+
+.beginner {
+    background-color: var(--neutral-color);
 }
 
 /* Level Selector */

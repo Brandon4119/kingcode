@@ -39,7 +39,6 @@ nav {
     font-family: var(--changa-font);
     height: 100%;
     flex: auto;
-    display: inline-flex;
 }
 
 .nav-link a {

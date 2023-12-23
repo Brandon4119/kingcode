@@ -6,12 +6,22 @@ import Header from './pages/header';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Home from './pages/home';
+ 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Beginners />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header/>
+        <Routes>
+          <Route path="/home" element={ <Home /> }></Route>
+          <Route path="/beginner" element={ <Beginners />}></Route>
+        </Routes>
+        <Header/>
+       
+      </div>
+    </BrowserRouter>
   );
 }
 
